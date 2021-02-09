@@ -1,0 +1,26 @@
+/* degug */
+[class*="col-"]{
+  min-height: 100px;
+  background-color: red;
+  border: solid 1px #000;
+}
+
+/* regole generali */
+.contenitore{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* regole header */
+header {
+  margin-bottom: 30px;
+}
+.background-green{
+  background-color: green;
+}
+.background-blue{
+  background-color: blue;
+}
+.background-darkblue{
+  background-color: darkblue;
+}
