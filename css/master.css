@@ -106,15 +106,24 @@ header a:hover, a:focus {
   display: inline-block;
 }
 .cabin{
-  height: 250px;
+  width: 100%;
   border-radius: 5px;
-  margin-bottom: 60px;
 }
 .cabin:hover{
   opacity: 0.2;
 }
 .layover{
+  opacity: 0;
   background-color: green;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+}
+.layover:hover{
+  opacity: 0.8;
 }
 /* ABOUT SECTION */
 .about{
@@ -133,4 +142,18 @@ header a:hover, a:focus {
   font-size: 18px;
   font-weight:100;
   margin-top: -30px;
+}
+.position_relative{
+  position: relative;
+}
+.padding30{
+  padding: 30px;
+}
+.plus{
+  border-radius: 4px;
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
