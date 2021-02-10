@@ -13,6 +13,7 @@
 .contenitore{
   width: 80%;
   margin: 0 auto;
+  position: relative;
 }
 a{
   color: white;
@@ -67,6 +68,7 @@ header a:hover, a:focus {
 .largo50{
   width: 55%;
   margin: 90px auto;
+  text-align: center;
 }
 .big_star{
   font-size: 60px;
@@ -90,4 +92,45 @@ header a:hover, a:focus {
   font-size: 25px;
   color: white;
   padding-top: 15px;
+}
+/* Parte main */
+.portfolio{
+  font-size: 60px;
+  color: #2C3E50;
+  padding-top: 20px;
+}
+.largo40b{
+  width: 36%;
+  border-top: 5px solid #2C3E50;
+  border-radius: 4px;
+  display: inline-block;
+}
+.cabin{
+  height: 250px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+.cabin:hover{
+  opacity: 0.2;
+}
+.layover{
+  background-color: green;
+}
+/* ABOUT SECTION */
+.about{
+  font-size: 50px;
+  color: #2C3E50;
+  padding-top: 20px;
+}
+.about_hr{
+  width: 20%;
+  border-top: 5px solid #2C3E50;
+  border-radius: 4px;
+  display: inline-block;
+}
+.about_txt{
+  color: white;
+  font-size: 18px;
+  font-weight:100;
+  margin-top: -30px;
 }
